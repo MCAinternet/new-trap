@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<widget xmlns = "http://www.w3.org/ns/widgets"
+		xmlns:gap = "http://phonegap.com/ns/1.0"
+		id        = ""
+		versionCode=""
+		version   = "1">
+		<name>trap</name>
+		<description>
+its a trap		</description>
+		<author href="" email="">
+seith
+		</author>
+		<gap:plugin name="org.apache.cordova.file"  />
+		<gap:plugin name="org.apache.cordova.media"  />
+
+	</widget>
