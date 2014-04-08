@@ -2,7 +2,20 @@ html
 
 
 #imageone{
+height:147px;
+width:250px;
+color:white;
+background-color:black;
+font-size:125px;
+text-align:center;
+position:absolute;
+left:0px;
+top:0px;
+z-index:5;
+}
 
+#imagetwo{
+height:147px;
 width:250px;
 color:white;
 background-color:black;
@@ -12,10 +25,11 @@ position:absolute;
 left:0px;
 top:0px;
 z-index:4;
+
 }
 
-#imagetwo{
-
+#imagethree{
+height:147px;
 width:250px;
 color:white;
 background-color:black;
@@ -25,12 +39,12 @@ position:absolute;
 left:0px;
 top:0px;
 z-index:3;
-
 }
 
-#imagethree{
+#imagefour{
 
 width:250px;
+height:147px;
 color:white;
 background-color:black;
 font-size:125px;
@@ -40,8 +54,7 @@ left:0px;
 top:0px;
 z-index:2;
 }
-
-#imagefour{
+#imagefive{
 
 width:250px;
 height:147px;

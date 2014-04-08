@@ -1,34 +1,30 @@
 function test() {
 
-var x=1;
-var ione='#imageone';
-var itwo='#imagetwo';
-var ithree='#imagethree';
-var ifour='#imagefour';
-var i='a';
-while (x<5)
-{
-
-
 setTimeout(function () {
- if (x=1){
- i= ione;
- }
- else if (x=2){
- i=itwo;
- }
- else if (x=3){
- i=ithree;
- }
- else if (x=4){
- i=ifour;
- }
- $(i).css("visibility","hidden");
- x=x+1;
- }
-,1000 );
+ $("#imageone").css("visibility","hidden");
+	setTimeout(function () {
+	 $("#imagetwo").css("visibility","hidden");
+			setTimeout(function () {
+			 $("#imagethree").css("visibility","hidden");
+				setTimeout(function () {
+				$("#imagefour").css("visibility","hidden");
+					setTimeout(function () {
+						$("#imageone").css("visibility","visible");
+						$("#imagetwo").css("visibility","visible");
+						$("#imagethree").css("visibility","visible");
+						$("#imagefour").css("visibility","visible");
+					}   	  
+					,1 );
+				}   	  
+				,500 );
+			 }   	  
+			,500 );
+		}   	  
+	,500 );
+	 }   	  
+,500 ); //End setTimeoutfunction
 
 
 
-}
+		
 }
