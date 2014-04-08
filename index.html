@@ -41,7 +41,7 @@
         }
         // Get the new media file
         var yourSelect = document.getElementById('playlist');	
-        myMedia = new Media(yourSelect.options[yourSelect.selectedIndex].value, stopAudio, null);
+        myMedia = new Media("https://www.ibuylocalretailers.com/notify2.mp3");
          
         // Update media position every second
         var mediaTimer = setInterval(function() {
@@ -72,13 +72,7 @@
         <select id="playlist" onchange="updateMedia()">
 <<<<<<< HEAD
         <option checked value="https://www.ibuylocalretailers.com/notify2.mp3">1</option>
-        <option value="www/itsATrap.mp3">2</option>
-        <option value="file:///itsATrap.mp3">3</option>
-=======
-        <option checked value="/assets/www/itsATrap.mp3">1</option>
-        <option value="assets/www/itsATrap.mp3">2</option>
-        <option value="file://assets/www/itsATrap.mp3">3</option>
->>>>>>> 5741836fb400442e7d584a5d8125d40d57f24ad1
+        
         </select>
         </p>
         <a href="#" onclick="playAudio()"><img id="play" src="images/play.png"></a>
